@@ -1,17 +1,20 @@
-﻿
-    double resultado = 0;
 
-    double somarValor(doble valor) { }
+double resultado = 0;
 
-    double subtrairValor(doble valor) { }
+double SomarValor(double valor) { }
 
-    double dividirValor(doble valor) { }
+double SubtrairValor(double valor) { }
 
-    double multiplicarValor(doble valor) { }
+double DividirValor(double valor) { }
 
-    double zerarResultado() { }
+double MultiplicarValor(double valor) { }
 
-    double pegarResultadoDaUltimaOperacaoMatematica() { }
+double ZerarResultado()
+    => resultado = 0;
 
-    double definirResultadoDaUltimaOperacaoMatematica() { }
+double PegarResultadoDaUltimaOperacaoMatematica()
+    => resultado;
+
+double DefinirResultadoDaUltimaOperacaoMatematica(double newValue)
+    => resultado = newValue;
 
